@@ -19,50 +19,77 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 - Read: 14
 - Read: 15
 
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+- test
+
 
 ### First Daily Reading
