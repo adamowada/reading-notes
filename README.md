@@ -21,32 +21,32 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 
 
 
-### First Daily Reading
+#### First Daily Reading
 
-### Second Daily Reading
+#### Second Daily Reading
 
-### Third Daily Reading
+#### Third Daily Reading
 
-### Fourth Daily Reading
+#### Fourth Daily Reading
 
-### Fifth Daily Reading
+#### Fifth Daily Reading
 
-### Sixth Daily Reading
+#### Sixth Daily Reading
 
-### Seventh Daily Reading
+#### Seventh Daily Reading
 
-### Eighth Daily Reading
+#### Eighth Daily Reading
 
-### Ninth Daily Reading
+#### Ninth Daily Reading
 
-### Tenth Daily Reading
+#### Tenth Daily Reading
 
-### Eleventh Daily Reading
+#### Eleventh Daily Reading
 
-### Twelfth Daily Reading
+#### Twelfth Daily Reading
 
-### Thirteenth Daily Reading
+#### Thirteenth Daily Reading
 
-### Fourteenth Daily Reading
+#### Fourteenth Daily Reading
 
-### Fifteenth Daily Reading
+#### Fifteenth Daily Reading
