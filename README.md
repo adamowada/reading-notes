@@ -23,6 +23,7 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 
 #### First Daily Reading
 
+```
 HTML Chapter 1: Structure
 <html>
   <body>
@@ -42,7 +43,8 @@ attributes
 - <body>
 - <head>
 - <title>
-
+```
+```
 HTML Chapter 8: Extra Markup
 
 - <!DOCTYPE html>
@@ -60,7 +62,8 @@ inline elements
 - <meta>
 
 escape characters
-
+```
+```
 HTML Chapter 17: HTML5 Layout
 
 - <header>
@@ -73,7 +76,8 @@ HTML Chapter 17: HTML5 Layout
 - <figure>
 - <figcaption>
 - <a>
-
+```
+```
 HTML Chapter 18: Process and Design
 
 Target audience
@@ -88,17 +92,18 @@ Site maps
   - navigation
 
 code management system  <-- wrong chapter?
-
+```
+```
 JS Chapter 1: The ABC's of Programming
 
 - A: What is a script and how do I create one?
 - B: How do computers fit in the world around them?
 - C: How do I write a script for a web page?
-
+```
 
 #### Second Daily Reading
 
-
+```
 HTML Chapter 2: Text
 - Headings
   - <h1>...<h6>
@@ -124,7 +129,8 @@ HTML Chapter 2: Text
   - <ins> inserted text (underlined)
   - <del> deleted text (strikethrough)
   - <s> something no longer accurate or relevant (strikethrough)
-  
+  ```
+  ```
 HTML Chapter 10: CSS
   
   selector      p
@@ -148,7 +154,8 @@ Internal CSS
 
 Inheritance
   - applies to child elements
-
+```
+```
 JS Chapter 2: Basic Javascript Instructions
 
 syntax grammar and instructions
@@ -168,7 +175,8 @@ variables
 data types
 
 operators
-
+```
+```
 JS Chapter 4: Decisions and Loops
 
 if, else if, else
@@ -191,7 +199,7 @@ for loops
 while loops
 
 do while loops
-
+```
 
 
 #### Third Daily Reading
