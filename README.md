@@ -204,6 +204,80 @@ do while loops
 
 #### Third Daily Reading
 
+HTML Chapter 3: Lists
+
+```
+Ordered list
+  - <ol>
+      <li> </li>
+    </ol>
+
+Unordered list
+  - <ul>
+      <li> </li>
+    </ul>
+
+defintion list
+  - <dl>
+      <dt></dt>
+      <dd></dd>
+    </dl>
+
+Lists can be nested, eg a <ul> inside an <li>
+
+```
+```
+HTML Chapter 13: Boxes
+
+Box model
+  - margin
+  - border
+  - padding
+  - content
+
+- pixels, ems,
+
+order:
+- top, right, bottom, left
+- right, left
+- all 
+
+borders have many types of stylings available
+```
+```
+JavaScript Chapter 4: Switch statements onward
+
+switch (switch value) {
+  case 'option1':
+    something happens
+  case 'option2':
+    something happens
+  default;
+    something else happens (Default)
+}
+
+Truthy and Falsy 
+
+if else statements
+
+For While Do While loops
+
+For (var i = 0; i < 10; i++) {
+  code to execute during loop
+}
+
+initialization condition update
+
+do while loops
+do {
+_
+_
+_
+} 
+while _______
+```
+
+
 #### Fourth Daily Reading
 
 #### Fifth Daily Reading
