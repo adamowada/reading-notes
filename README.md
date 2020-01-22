@@ -280,6 +280,39 @@ while _______
 
 #### Fourth Daily Reading
 
+```
+HTML Chapter 4: Links
+
+<a> tag with href=" " > text to click on  </a>
+
+target.html for relative links
+
+child/target.html for links in child directory
+
+../ for parent directory
+
+ 
+
+HTML Chapter 15: Layout
+
+Grid model
+
+Inline elements vs Box elements
+
+CSS Frameworks
+
+ 
+
+JS Chapter 4: Functions (start)
+
+function keyword
+
+functionname() {
+
+code to run
+}
+```
+
 #### Fifth Daily Reading
 
 #### Sixth Daily Reading
