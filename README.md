@@ -314,6 +314,251 @@ code to run
 ```
 
 #### Fifth Daily Reading
+```
+HTML Chapter 5: Images
+
+- image elements are an empty element with no closing tag
+
+- <img src="pathway/image.jpg" alt="description of image." />
+
+- use empty "" for alt attribute if image decorative with no meaning
+
+- title element is text that will be displayed if hovered
+
+- width="x" and height="y" specifies image dimensions. If you only define one the browser will auto the other to maintain ratio
+
+- image tags can be placed before <p> (outside it), inside <p> before text, inside <p> after some text.
+
+- if <img> is followed by block level element, then block level element will sit on new line
+
+- use CSS to control alignment of images
+
+- align attributes in HTML is not used anymore 
+
+- 3 rules for images:
+
+     1. save images in right format. jpg(jpeg), gif, or png 
+
+     2. save images at right size. if <img> specifies differently image will be distorted
+
+     3. use correct resolution. most computer screens are 72 pixels per inch
+
+- vector images are different from bitmap images and are resolution independent. .svg files.
+
+- animated gifs are a thing
+
+-transparency: if the transparent part of image has straight edges and is 100% transparent you can use a gif. else use png
+
+- <figure> 
+
+    <img>
+
+    <figcaption> caption </figcaption>
+
+    </figure>
+
+ 
+
+HTML Chapter 11: Color
+
+- CSS color can be defined in 3 ways. 1) RGB values eg. rgb(100,100,90) 2) hex codes eg. #ee3e80 3) color names, there are 147 predefined color names
+
+- background-color: white;
+
+- make sure text has enough contrast to be readable 
+
+- opacity property in CSS
+
+- opacity: 0.5;
+
+- hsla = hue, saturation, lightness, alpha
+
+- background-color: #ffffff;
+
+   background-color: hsla(0,100%,100%,0.5);
+
+- alpha means transparency 
+
+ 
+
+HTML Chapter 12: Text
+
+- CSS text properties fall into two groups: 1) directly affect font and appearance, like typeface, bold, size 2) affect text no matter what font you're using, like color of text and spacing between words and letter
+
+- serif fonts: extra details (lines) at ends of main strokes of letters
+
+- sans-serif: straight ends without lines
+
+- monospace: fixed width
+
+- weight: light medium bold black
+
+- style: normal italic oblique
+
+- stretch: condensed regular extended
+
+- if choose a typeface browser will only display it if it's installed on user's computer
+
+- it's possible to specify more than one typeface and order of preference 
+
+- font-family: Georgia, Times, serif;
+
+- font-family: "Courier New", Courier, monspace;  <--- use double quotes if font name has more than one word
+
+- design tip, use no more than 3 types of fonts per page
+
+- font-size: 12px;
+
+200%;   <--- of default
+
+1.3em; <--- equivalent to the width of a letter m
+
+- relative proportions of size of text
+
+- default size of text in web browser is 16 pixels
+
+- @font-face {
+
+          font-family: 'ChunkFiveRegular';
+
+          src: url('fonts/chunkfive.eot'); }
+
+h1, h2 {
+
+          font-family: ChunkFiveRegular, Georgia, serif;}
+
+- @font-face allows you to use a font even if not installed on computer
+
+define many src url's to ensure browser coverage
+
+font formats should appear in this order: eot woff tff/otf svg
+
+- font-weight: bold;
+
+- font-style: normal;
+
+italic;
+
+oblique;
+
+- text-transform: uppercase;
+
+lowercase;
+
+capitalize;
+
+- text-decoration: none;
+
+underline;
+
+overline;
+
+line-through;
+
+blink;
+
+- leading is vertical space between lines of text
+
+- line-height: 1.4em;
+
+line-height is font-size + leading
+
+best to give in ems
+
+- kerning is space between each letter
+
+letter-spacing: 0.2em;
+
+- gap between words:
+
+word-spacing: 1em;
+
+- use ems for letter-spacing and word-spacing
+
+- default spacing around 0.25em
+
+- text-align: left;
+
+justify;
+
+right;
+
+center;
+
+- vertical-align property does not let you vertically align text in the middle of block level elements like <p> and <div>, though it does work for <td> and <th>
+
+- it's used with inline elements like <img> <em> or <strong>. similar task to HTML align attribute
+
+- vertical-align: baseline;
+
+sub;
+
+super;
+
+top;
+
+text-top;
+
+middle;
+
+bottom;
+
+text-bottom;
+
+-it can also take length in pixels or ems or percentage of line height
+
+- text-indent: 20px;
+
+- indents first line of text within an element
+
+- negative indent can take text off screen
+
+-text-shadow: (how far left or right) (distance to top or bottom) (optional; blur) (color)
+
+- text-shadow: 2px 2px 7px #111111;
+
+- you can specify different values for first letter or first line of text inside an element with:
+
+:first-letter
+
+:first-line
+
+- not properties but pseudo-elements at end of the selector
+
+p.intro:first-letter {
+
+     font-size: 200%;}
+
+- pseudo-class acts like an extra value for a class attribute
+
+other pseudo-classes:
+
+:link
+
+:visited
+
+:hover
+
+:active
+
+:focus
+
+ 
+
+More CSS selectors:
+
+existence [] p[class] - target any <p> element with an attribute called class
+
+equality [=] p[class="dog] targets any <p> element with an attribute called class whose value is dog
+
+space [~=] matches specific attribute whose value is in a space separated list of words
+
+prefix [^=] value begins with a specific string p[attr^"d"]
+
+substring [*=] attribute whose value contains a specific substring p[attr*"do"]
+
+suffix [$=] ends with a specific string p[attr$"g"]
+```
 
 #### Sixth Daily Reading
 
