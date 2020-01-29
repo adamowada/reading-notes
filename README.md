@@ -561,6 +561,135 @@ suffix [$=] ends with a specific string p[attr$"g"]
 ```
 
 #### Sixth Daily Reading
+ ```
+ ***just use jQuery
+
+JS Chapter 3: Object Literals 
+
+Object variables are known as properties
+
+Object functions are known as methods
+
+Properties and methods have keys and values
+
+var objectName = {
+
+key: value,
+
+methodName: function () {
+
+}
+
+};
+
+objects can be created through literal notation like above^
+
+Dot notation can access properties or methods:
+
+var newVar = objectName.propertyName;
+
+var newVar = objectName.methodName();
+
+Square bracket syntax can access properties but not methods:
+
+var newVar = objectName['propertyName'];
+
+ 
+
+JS Chapter 5: Document Object Model DOM
+
+The DOM allows JS to manipulate HTML
+
+DOM allows browser to create a model of HTML page and how JS access/updates content. It's a separate set of rules. The model (the DOM tree) is made of objects. 
+
+API application program interface let programs and scripts talk to each other.
+
+DOM Tree:
+
+- Document Node
+
+- Element Node
+
+- Attribute Node
+
+- Text Node
+
+Access & Update DOM tree:
+
+1. locate node for element you want to work with
+
+2. use its text/child elements/attributes
+
+Elements & element nodes are used interchangeably
+
+Methods that find elements in DOM tree are called DOM queries 
+
+To store element in a variable you store the DOM tree location of the element in a variable. Also known as caching the selection. Variable stores a reference to object in DOM tree.
+
+var newVar = elementMethod('parameter');
+
+^this stores a reference to the element, not the (potential) text content of element. To do so use dot notation. 
+
+DOM queries can return one element, or a NodeList which is a collection of nodes. If a method CAN return more than one node, it will ALWAYS return a NodeList. You can select element you want from this list with index number, using item(#) method or array[#]. 
+
+Methods That Return Single Element Node:
+
+getElementById('id')
+
+querySelector('css selector')
+
+NodeList:
+
+getElementsByClassName('class')
+
+getElementsByTagName('tagName')
+
+querySelectorAll('css selector')
+
+You can loop through NodeList to apply code through numerous elements
+
+Traversing the DOM: When you have an element node, you can select another element by its relation using 5 properties:
+
+1. parentNode
+
+2. previousSibling
+
+3. nextSibling
+
+4. firstChild
+
+5. lastChild
+
+Accessing and changing a text node,
+
+1. access element node
+
+2. access text node
+
+3. text node has property nodeValue which returns the text in that text node
+
+or use nodeValue to update content of a text node
+
+or use textContent property
+
+Avoid innerText property 
+
+You can add or remove HTML content with innerHTML property (there are risks, don't use it) or DOM manipulation
+
+- itemContent update text and markup
+
+Add elements with DOM manipulation
+
+1. createElement()
+
+2. createTextNode()
+
+3. appendChild()
+
+removeChild() method to remove element
+
+Defend against XSS attacks
+```
 
 #### Seventh Daily Reading
 
