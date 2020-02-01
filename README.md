@@ -692,6 +692,65 @@ Defend against XSS attacks
 ```
 
 #### Seventh Daily Reading
+```
+Domain Modeling:
+
+- A model describes various entities, their attributes and behavior, and constraints, that all govern the problem domain. The problem domain is like a big umbrella that models abstract objects. Objects have attributes and behavior
+
+- Constructor functions build self contained objects with the same attributes and behavior (but not necessarily the same values)
+
+- Constructor is defined using a function expression
+
+- After constructor function is define, instantiate with the new keyword and initialize by calling the function()
+
+ 
+
+HTML Chapter 6: Tables
+
+Tables can be thought of a grid of rows and columns, kind of like a spreadsheet.
+
+<table> creates a table
+
+<tr> indicates start of each row
+
+<td> each cell is represented by 
+
+<th> table heading
+
+<thead> headings of table 
+
+<tbody> body should sit inside tbody 
+
+<tfoot> footer of table
+
+ 
+
+JS Chapter 3: Creating an Object
+
+new keyword and object constructor creates a blank object. you can then add properties and methods
+
+var object = new Object();
+
+object.propertyName = propertyValue
+
+this. keyword
+
+ways to create objects: 1)  create object, then add properties and methods or 2) create an object with properties and methods
+
+literal notation, object constructor notation
+
+store data with variables and array
+
+Document object
+
+Global object: String object
+
+Global object: Number object
+
+Global object: Math object
+
+Date object
+```
 
 #### Eighth Daily Reading
 
