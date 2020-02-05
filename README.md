@@ -753,6 +753,55 @@ Date object
 ```
 
 #### Eighth Daily Reading
+```
+HTML Chapter 15: Layout
+
+use <div> elements as containing elements to group sections together on a page
+
+- HTML Boxes are either inline box or black-level box
+
+- Block level starts on a new line. Inline flows in between surrounding text
+
+- If a block level element sits inside another block level element, its known as its containing or parent element
+
+- eg div
+
+- Positioning schemes:
+
+- Normal flow: every block level element appears on a new line, each new item lower than the previous one (default behavior)
+
+- Relative positioning: Shifts element top-right-left-bottom from where it would be in normal flow but it doesn't affect the position of surrounding elements
+
+- Absolute positioning: positions element in relation to containing element. Taken out of normal flow. Doesn't affect position of surrounding elements. Moves as user scrolls page
+
+- Box offset:
+
+- Fixed positioning: relative to browser window not containing element
+
+- Floating element: out of normal flow, to the far left or right of containing box. Floated element becomes block-level element which other content can flow around
+
+- Removing elements from normal flow can cause overlap, controlled by z axis
+
+Layouts:
+
+- Fixed width: do not change sizes as user increases or decreases size of browser window. measured in pixels
+
+- Liquid layout: Stretch and contract as user increases or decreases size of browser window. uses percentages.
+
+Layout grids:
+
+- 960 pixel grid, 12 columns
+
+- many variations possible
+
+CSS frameworks
+
+- helps create layout grids, styling forms, printer friendly versions, etc.
+
+- checkout 960 Grid System at www.960.gs (Links to an external site.)
+
+- one can have multiple css files in one page
+```
 
 #### Ninth Daily Reading
 
