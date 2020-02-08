@@ -804,6 +804,141 @@ CSS frameworks
 ```
 
 #### Ninth Daily Reading
+```
+HTML Chapter 7: Forms
+
+Adding text:
+
+- text Input
+
+- password input
+
+- text area (text box)
+
+Making choices:
+
+- radio buttons (one of many options, can't uncheck)
+
+- checkboxes ( select one or many, can uncheck)
+
+- dropdown boxes
+
+Submitting forms:
+
+- submit buttons
+
+- image buttons
+
+- uploading files
+
+How forms work:
+
+- input selected by user, hits submit
+
+- name of each form control and value sent to server
+
+- backend processes it, may send to database
+
+- server creates new page for user based on information received 
+
+<form> action method id
+
+<input> size type name maxlength
+
+<textarea>
+
+radio button: type="radio"
+
+"checkbox"
+
+- validation
+
+HTML Chapter 14: Lists Tables & Forms
+
+- Bullet point styles
+
+- list-style-type
+
+- list-style-image
+
+- list-style-position
+
+- list-style
+
+Table Properties
+
+-width 
+
+-padding
+
+- text-transform
+
+- letter-spacing, font-size
+
+- border-top, border-bottom
+
+- text-align
+
+- background-color
+
+:hover
+
+- border-spacing, border-collapse
+
+- empty cell properties
+
+Similar styling for text inputs for forms
+
+JS Chapter 6: Events
+
+Event types:
+
+-load
+
+-unload
+
+-error
+
+-resize
+
+-scroll
+
+Keyboard Events:
+
+-keydown
+
+-keyup
+
+-keypress
+
+Mouse Events
+
+-click
+
+-dbclick
+
+- mousedown
+
+-mouseup
+
+-mousemove
+
+-mouseover
+
+-mouseout
+
+Three ways to bind an event to an element:
+
+- HTML event handlers
+
+- Traditional DOM event handlers
+
+- DOM level 2 event listeners
+
+Traditional DOM event handlers:
+
+element.onevent = functionName;
+```
 
 #### Tenth Daily Reading
 
