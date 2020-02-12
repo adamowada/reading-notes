@@ -941,6 +941,97 @@ element.onevent = functionName;
 ```
 
 #### Tenth Daily Reading
+```
+JS Chapter 10: Error Handling and Debugging
+
+- JS has an order of execution
+
+Execution context:
+
+- Global context: code in the script but not the function. Only one global context in any page
+
+- Function context: Code run within a function. Each function has its own function context
+
+- eval() - don't use or worry about it
+
+Variable scope:
+
+- global scope: variables declared outside a function that can be used anywhere
+
+- function level scope: variable declared within a function, it can only be used within that function
+
+The JS Stack:
+
+- When a statement or function needs data from another function, the new function goes on the stack. Top of the stack is first to get done
+
+- Last in first out
+
+Preparation Phase - Execution Phase:
+
+- functions and variables are created first
+
+- that means you can call functions and variables before (above) where they are defined
+
+--
+
+- functions are linked to the objects they were defined within
+
+- functions can access parent variables but not vice versa
+
+Errors
+
+- if JS generates an error, it throws an exception. at that point the interpreter stops and looks for exception handling code
+
+- it continues looking in parent functions until global context, then breaks and creates error object
+
+Error objects have the following properties:
+
+- name
+
+- message
+
+- file number
+
+- line number
+
+7 error objects:
+
+- error: generic error
+
+- syntaxerror: syntax has not been followed
+
+- referenceerror: tried to reference undeclared variable
+
+- typeerror: unexpected data type
+
+- rangeerror: numbers not in acceptable range
+
+- urierror: encodeURI() and decodeURI() used incorrectly
+
+- evalerror: eval() function used incorrectly
+
+Debugging:
+
+- Where is the problem?
+
+- What is the problem?
+
+- Use dev tools and console
+
+- log data to console as you go
+
+- group messages with console.group() 
+
+- console.dir(object) to explore an object in the console
+
+- pause execution of script with a breakpoint - chrome sources
+
+Handling Exceptions:
+
+- use Try, Catch (exception), Finally. If you think code will fail
+
+- you can throw your own errors (but I don't get why you would)
+```
 
 #### Eleventh Daily Reading
 
