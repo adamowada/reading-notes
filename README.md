@@ -1034,6 +1034,35 @@ Handling Exceptions:
 ```
 
 #### Eleventh Daily Reading
+```
+HTML Chapter 16: Images
+
+You can control the height/width of images in css
+
+And position
+
+Add background image with: background-image: url('#');
+
+For example:
+
+background: url('../images/showcase.jpg')
+no-repeat center center/cover;
+ 
+Be aware of high contrast images with text over them 
+ 
+HTML Chapter 19: Practical Information
+ 
+SEO Factors:
+- page title
+- url web address
+- headings
+- text
+- link text
+- image alt text
+- page description
+ 
+Use google analytics
+```
 
 #### Twelfth Daily Reading
 
