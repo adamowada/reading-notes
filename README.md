@@ -1066,6 +1066,25 @@ Use google analytics
 
 #### Twelfth Daily Reading
 
+What Google Learned From Its Quest to Build the Perfect Team:
+```
+Team dynamics matter a lot. 
+
+"we all felt like we could say anything to each other"
+
+Getting along better as a group > getting along better individually 
+
+Group norms are deterministic of group performance. (Traditions, behavioral standards, unwritten rules)
+
+- Members speak roughly the same proportion
+
+- High average social sensitivity
+
+Safe space to take risks
+
+Goal is a team that is greater than its parts
+```
+
 #### Thirteenth Daily Reading
 
 #### Fourteenth Daily Reading
