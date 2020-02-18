@@ -1085,6 +1085,131 @@ Safe space to take risks
 Goal is a team that is greater than its parts
 ```
 
+```
+EASILY CREATE STUNNING ANIMATED CHARTS WITH CHART.JS;
+
+- Download Chart.js and copy Chart.min.js into working directory
+
+- import in <head> with <script src='Chart.min.js'></script> (why not the body?)
+
+- <canvas> element
+
+- create line chart with:
+
+new Chart(buyers).Line(buyerData);
+
+- create pie chart with:
+
+new Chart(countries).Pie(pieData, pieOptions);
+
+- create bar chart with:
+
+new Chart(income).Bar(barData);
+
+^add data for charts
+
+ 
+
+Chart.js Introduction:
+
+Install like above. 1) include chart.js script reference 2) use <canvas> 3) follow documentation
+
+ 
+
+Basic usage of canvas:
+
+<canvas id="tutorial" width="150" height="150"></canvas>
+
+"The <canvas> element can be styled just like any normal image (margin, border, background…). These rules, however, don't affect the actual drawing on the canvas."
+
+ 
+
+Drawing shapes with canvas:
+
+Canvas grid/coordinate space:
+
+(0, 0) is the upper left corner. All elements are placed relative to this origin. 
+
+<canvas> supports rectangles and paths (primitive shapes)
+
+Rectangle functions:
+
+fillRect(x, y, width, height)
+Draws a filled rectangle.
+
+
+strokeRect(x, y, width, height)
+Draws a rectangular outline.
+
+
+clearRect(x, y, width, height)
+Clears the specified rectangular area, making it fully transparent.
+
+Drawing Paths:
+
+A path is a list of points, connected by segments of lines (can be curved)
+
+1. create oath
+
+2. use drawing commands to draw into path
+
+3. use stroke or fill to render
+
+Path functions:
+
+beginPath() - creates new path
+
+Path methods:
+
+closePath()
+
+stroke()
+
+fill()
+
+ 
+
+moveTo(x, y) - moves pen to coordinates to place a starting point somewhere else
+
+(other functions for lines and arcs)
+
+ 
+
+Applying styles and colors:
+
+fillStyle = color
+Sets the style used when filling shapes.
+
+
+strokeStyle = color
+Sets the style for shapes' outlines.
+
+ 
+
+Transparancy:
+
+globalAlpha = transparencyValue
+
+ 
+
+Line styles and properties
+
+ 
+
+Drawing text with canvas.js:
+
+Drawing text
+The canvas rendering context provides two methods to render text:
+
+fillText(text, x, y [, maxWidth])
+Fills a given text at the given (x,y) position. Optionally with a maximum width to draw.
+
+
+strokeText(text, x, y [, maxWidth])
+Strokes a given text at the given (x,y) position. Optionally with a maximum width to draw.
+
+```
+
 #### Thirteenth Daily Reading
 
 #### Fourteenth Daily Reading
