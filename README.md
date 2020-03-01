@@ -1212,6 +1212,54 @@ Strokes a given text at the given (x,y) position. Optionally with a maximum widt
 
 #### Thirteenth Daily Reading
 
+https://learn.shayhowe.com/advanced-html-css/css-transforms/ (Links to an external site.)
+
+use CSS transform property to rotate or distort 2d or 3d objects
+
+rotate value to rotate
+
+scale value to resize
+
+scaleY or scaleX to resize dimensions
+
+translate value to move relative to axis
+
+translateX or translateY to move on one axis
+
+skew skewY skewX to diagonalize 
+
+perspective property, separate from transform, doesn't change the coordinates of an object but the perspective of the viewer seeing it, like vanishing points
+
+3d is like 2d but with added Z axis to values
+
+-
+
+transitions:
+
+timed change from one set of css properties to another
+
+property (ies), duration, function
+
+-
+
+8 simple CSS transitions:
+
+1. fade in
+
+2. change color
+
+3. grow and shrink
+
+4. rotate element
+
+5. square to circle
+
+6. 3D shadow
+
+7. swing
+
+8. inset border
+
 #### Fourteenth Daily Reading
 
 #### Fifteenth Daily Reading
