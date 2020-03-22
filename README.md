@@ -20,7 +20,7 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 - [Read: 15](#fifteenth-daily-reading)
 
 301
-- [Read: 01](/301%20-%20Read:%2001.md)
+- [Read: 01](301-01.md)
 
 
 
