@@ -19,6 +19,9 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 - [Read: 14](#fourteenth-daily-reading)
 - [Read: 15](#fifteenth-daily-reading)
 
+301
+- [Read: 01](https://github.com/adamowada/reading-notes/blob/master/301%20-%20Read:%2001.md)
+
 
 
 #### First Daily Reading
