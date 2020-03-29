@@ -22,6 +22,7 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 301
 - [Read: 01](301-01.md)
 - [Read: 02](301-02.md)
+- [Read: 03](301-03.md)
 
 
 #### First Daily Reading
