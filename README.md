@@ -1,4 +1,4 @@
-## Code 201 & 301 Reading Notes
+## Code 201, 301 & 401 Reading Notes
 
 This is a place for me to organize my thoughts and take notes on [Web Design with HTML, CSS, JavaScript and JQuery](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442) assigned readings in Code 201 & 301. Feel free to learn along with me.
 
@@ -25,6 +25,9 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 - [Read: 03](301-03.md)
 - [Read: 04](301-04.md)
 - [Read: 05](301-05.md)
+
+401
+- [Read: 01](401-01.md)
 
 
 #### First Daily Reading
