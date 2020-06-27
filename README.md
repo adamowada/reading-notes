@@ -28,6 +28,7 @@ This is a place for me to organize my thoughts and take notes on [Web Design wit
 
 401
 - [Read: 01](401-01.md)
+- [Read: 06](401-06.md)
 
 
 #### First Daily Reading
